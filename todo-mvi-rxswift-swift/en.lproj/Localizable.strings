@@ -1,0 +1,49 @@
+/* 
+ Localizable.strings
+ todo-mvi-rxswift-swift
+ 
+ Created by damien on 15/12/2021.
+ 
+ */
+
+"app_name" = "TO-DO-MVI";
+"add_task" = "New TO-DO";
+"edit_task" = "Edit TO-DO";
+"task_marked_complete" = "Task marked complete";
+"task_marked_active" = "Task marked active";
+"loading_tasks_error" = "Error while loading tasks";
+"completed_tasks_cleared" = "Completed tasks cleared";
+"menu_filter" = "Filter";
+"menu_clear" = "Clear completed";
+"menu_delete_task" = "Delete task";
+"navigation_view_header_title" = "TO-DOs";
+"title_hint" = "Title";
+"description_hint" = "Enter your TO-DO here.";
+"empty_task_message" = "TO DOs cannot be empty";
+"successfully_saved_task_message" = "TO-DO saved";
+"list_title" = "TO-DO List";
+"statistics_title" = "Statistics";
+"statistics_no_tasks" = "You have no tasks.";
+"statistics_active_tasks" = "Active tasks:";
+"statistics_completed_tasks" = "Completed tasks:";
+"statistics_error" = "Error loading statistics.";
+"no_data" = "No data";
+"loading" = "LOADING";
+
+//<string-array name="list_tasks_array">
+//  <item> @string/nav_all</item>
+//  <item> @string/nav_active</item>
+//  <item> @string/nav_completed</item>
+//</string-array>
+
+"nav_all" = "All";
+"nav_active" = "Active";
+"nav_completed" = "Completed";
+"label_all" = "All TO-DOs";
+"label_active" = "Active TO-DOs";
+"label_completed" = "Completed TO-DOs";
+"no_tasks_all" = "You have no TO-DOs!";
+"no_tasks_active" = "You have no active TO-DOs!";
+"no_tasks_completed" = "You have no completed TO-DOs!";
+"no_tasks_add" = "Add a TO-DO item +";
+"refresh" = "Refresh";

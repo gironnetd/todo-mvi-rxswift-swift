@@ -1,0 +1,6 @@
+framework module Pods_todo_mvi_rxswift_swiftTests {
+  umbrella header "Pods-todo-mvi-rxswift-swiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,19 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F92515D7B260212D2AF2FE7 /* Pods_todo_mvi_rxswift_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8A5AF42B223124E4C1F5A1 /* Pods_todo_mvi_rxswift_swiftTests.framework */; };
+		50075ECC99CDBF8D2EBBF5C2 /* Pods_todo_mvi_rxswift_swift_todo_mvi_rxswift_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181C1060BAB0B3E37D72C9BC /* Pods_todo_mvi_rxswift_swift_todo_mvi_rxswift_swiftUITests.framework */; };
+		6D0839B8275A9C6900ABECF1 /* TasksFilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0839B7275A9C6900ABECF1 /* TasksFilterType.swift */; };
+		6D0839BD275AA3AB00ABECF1 /* RxExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0839BC275AA3AB00ABECF1 /* RxExt.swift */; };
+		6D24A1D4276E33E80026A1A5 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D24A1D2276E33E80026A1A5 /* MenuCell.swift */; };
+		6D24A1DA276E4DE00026A1A5 /* MenuHearderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D24A1D9276E4DE00026A1A5 /* MenuHearderViewController.swift */; };
+		6D4E2C22276A0A5E004EC210 /* ObservableUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E2C21276A0A5E004EC210 /* ObservableUtils.swift */; };
+		6D4E2C2B276A721F004EC210 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D4E2C2D276A721F004EC210 /* Localizable.strings */; };
 		6D680E872757D02F00633F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680E862757D02F00633F99 /* AppDelegate.swift */; };
 		6D680E892757D02F00633F99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680E882757D02F00633F99 /* SceneDelegate.swift */; };
-		6D680E8B2757D03000633F99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680E8A2757D03000633F99 /* ViewController.swift */; };
 		6D680E8E2757D03000633F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D680E8C2757D03000633F99 /* Main.storyboard */; };
-		6D680E912757D03000633F99 /* todo_mvi_rxswift_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D680E8F2757D03000633F99 /* todo_mvi_rxswift_swift.xcdatamodeld */; };
 		6D680E932757D03C00633F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D680E922757D03C00633F99 /* Assets.xcassets */; };
 		6D680E962757D03C00633F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D680E942757D03C00633F99 /* LaunchScreen.storyboard */; };
 		6D680EA12757D03C00633F99 /* todo_mvi_rxswift_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680EA02757D03C00633F99 /* todo_mvi_rxswift_swiftTests.swift */; };
 		6D680EAC2757D03C00633F99 /* todo_mvi_rxswift_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680EAB2757D03C00633F99 /* todo_mvi_rxswift_swiftUITests.swift */; };
+		6D680ECA2757D33800633F99 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680EC92757D33700633F99 /* TasksViewController.swift */; };
+		6D680ED22757D35000633F99 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680ED12757D35000633F99 /* TaskDetailViewController.swift */; };
+		6D680ED72757D36300633F99 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680ED62757D36300633F99 /* StatisticsViewController.swift */; };
+		6D680EDC2757D37600633F99 /* AddEditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680EDB2757D37600633F99 /* AddEditTaskViewController.swift */; };
+		6D680EE12757D3A000633F99 /* MviAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680EE02757D3A000633F99 /* MviAction.swift */; };
+		6D680EE62757D3B500633F99 /* MviIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680EE52757D3B500633F99 /* MviIntent.swift */; };
+		6D680EEB2757D3C900633F99 /* MviResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680EEA2757D3C900633F99 /* MviResult.swift */; };
+		6D680EF02757D3DC00633F99 /* MviView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680EEF2757D3DC00633F99 /* MviView.swift */; };
+		6D680EF62757D40200633F99 /* MviViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680EF52757D40200633F99 /* MviViewModel.swift */; };
+		6D680EFE2757D41F00633F99 /* MviViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D680EFD2757D41F00633F99 /* MviViewState.swift */; };
+		6D68B53C2770B06D00D1264A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D68B53B2770B06D00D1264A /* BaseViewController.swift */; };
+		6D68B5412770B0A100D1264A /* MenuContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D68B5402770B0A100D1264A /* MenuContentViewController.swift */; };
+		6D68F7112771EB4E00426946 /* BaseDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D68F7102771EB4E00426946 /* BaseDrawerViewController.swift */; };
+		6D8C49A42766232200E174CD /* TasksRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C49A32766232200E174CD /* TasksRemoteDataSource.swift */; };
+		6D8C49A92766238400E174CD /* TasksLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C49A82766238400E174CD /* TasksLocalDataSource.swift */; };
+		6DA933C92767824A00ECF672 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA933C82767824A00ECF672 /* TaskCell.swift */; };
+		6DA933CE2767CA5C00ECF672 /* TasksCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA933CD2767CA5C00ECF672 /* TasksCollectionView.swift */; };
+		6DA95205276B65F800EF90CB /* ApplicationScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA95204276B65F800EF90CB /* ApplicationScheme.swift */; };
+		6DA9520B276B686F00EF90CB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DA9520A276B686F00EF90CB /* Roboto-Regular.ttf */; };
+		6DA95211276B76A600EF90CB /* tasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9520F276B76A600EF90CB /* tasks.xcdatamodeld */; };
+		6DB453D0275A62A70008E522 /* TasksDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB453CF275A62A70008E522 /* TasksDataSource.swift */; };
+		6DB453D5275A62B80008E522 /* TasksRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB453D4275A62B80008E522 /* TasksRepository.swift */; };
+		6DB453DA275A62E70008E522 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB453D9275A62E70008E522 /* Task.swift */; };
+		6DB453E4275A63160008E522 /* TasksAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB453E3275A63160008E522 /* TasksAction.swift */; };
+		6DB453E9275A63230008E522 /* TasksIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB453E8275A63230008E522 /* TasksIntent.swift */; };
+		6DB453EE275A63340008E522 /* TasksResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB453ED275A63340008E522 /* TasksResult.swift */; };
+		6DB453F3275A63460008E522 /* TasksViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB453F2275A63460008E522 /* TasksViewState.swift */; };
+		6DB453F8275A63800008E522 /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB453F7275A63800008E522 /* TasksViewModel.swift */; };
+		6DB453FD275A63A40008E522 /* TasksActionProcessorHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB453FC275A63A40008E522 /* TasksActionProcessorHolder.swift */; };
+		6DB45402275A63BA0008E522 /* StatisticsAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45401275A63BA0008E522 /* StatisticsAction.swift */; };
+		6DB45407275A63CF0008E522 /* StatisticsIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45406275A63CF0008E522 /* StatisticsIntent.swift */; };
+		6DB4540C275A63E40008E522 /* StatisticsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4540B275A63E40008E522 /* StatisticsResult.swift */; };
+		6DB45411275A63FA0008E522 /* StatisticsViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45410275A63FA0008E522 /* StatisticsViewState.swift */; };
+		6DB45416275A640C0008E522 /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45415275A640C0008E522 /* StatisticsViewModel.swift */; };
+		6DB4541B275A64250008E522 /* StatisticsProcessorHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4541A275A64250008E522 /* StatisticsProcessorHolder.swift */; };
+		6DB45420275A643D0008E522 /* AddEditTaskAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4541F275A643D0008E522 /* AddEditTaskAction.swift */; };
+		6DB45425275A64520008E522 /* AddEditTaskIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45424275A64520008E522 /* AddEditTaskIntent.swift */; };
+		6DB4542A275A64660008E522 /* AddEditTaskResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45429275A64660008E522 /* AddEditTaskResult.swift */; };
+		6DB4542F275A647A0008E522 /* AddEditTaskViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4542E275A647A0008E522 /* AddEditTaskViewState.swift */; };
+		6DB45434275A648C0008E522 /* AddEditTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45433275A648C0008E522 /* AddEditTaskViewModel.swift */; };
+		6DB45439275A64A00008E522 /* TaskDetailAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45438275A64A00008E522 /* TaskDetailAction.swift */; };
+		6DB4543E275A64B10008E522 /* TaskDetailIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4543D275A64B10008E522 /* TaskDetailIntent.swift */; };
+		6DB45443275A64C10008E522 /* TaskDetailResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45442275A64C10008E522 /* TaskDetailResult.swift */; };
+		6DB45448275A64DB0008E522 /* AddEditTaskProcessorHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45447275A64DB0008E522 /* AddEditTaskProcessorHolder.swift */; };
+		6DB4544D275A64F10008E522 /* TaskDetailViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB4544C275A64F10008E522 /* TaskDetailViewState.swift */; };
+		6DB45452275A65030008E522 /* TaskDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45451275A65030008E522 /* TaskDetailViewModel.swift */; };
+		6DB45457275A65160008E522 /* TaskDetailProcessorHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB45456275A65160008E522 /* TaskDetailProcessorHolder.swift */; };
+		7576BB4CFA80C3CCEF260354 /* Pods_todo_mvi_rxswift_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659A42F5696594866ABD612E /* Pods_todo_mvi_rxswift_swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +90,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00DDE03EC3B2BE8BBB09FB55 /* Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests/Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		181C1060BAB0B3E37D72C9BC /* Pods_todo_mvi_rxswift_swift_todo_mvi_rxswift_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todo_mvi_rxswift_swift_todo_mvi_rxswift_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7AA2CBE13CAE728A5C523B /* Pods-todo-mvi-rxswift-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-mvi-rxswift-swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-todo-mvi-rxswift-swiftTests/Pods-todo-mvi-rxswift-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		487BBE980B35A831A2DFB9E3 /* Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests/Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		659A42F5696594866ABD612E /* Pods_todo_mvi_rxswift_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todo_mvi_rxswift_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0839B7275A9C6900ABECF1 /* TasksFilterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksFilterType.swift; sourceTree = "<group>"; };
+		6D0839BC275AA3AB00ABECF1 /* RxExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxExt.swift; sourceTree = "<group>"; };
+		6D24A1D2276E33E80026A1A5 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		6D24A1D9276E4DE00026A1A5 /* MenuHearderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHearderViewController.swift; sourceTree = "<group>"; };
+		6D4E2C21276A0A5E004EC210 /* ObservableUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableUtils.swift; sourceTree = "<group>"; };
+		6D4E2C2C276A721F004EC210 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6D680E832757D02F00633F99 /* todo-mvi-rxswift-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "todo-mvi-rxswift-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D680E862757D02F00633F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D680E882757D02F00633F99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6D680E8A2757D03000633F99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D680E8D2757D03000633F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6D680E902757D03000633F99 /* todo_mvi_rxswift_swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todo_mvi_rxswift_swift.xcdatamodel; sourceTree = "<group>"; };
 		6D680E922757D03C00633F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D680E952757D03C00633F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D680E972757D03C00633F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +114,57 @@
 		6D680EA72757D03C00633F99 /* todo-mvi-rxswift-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "todo-mvi-rxswift-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D680EAB2757D03C00633F99 /* todo_mvi_rxswift_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo_mvi_rxswift_swiftUITests.swift; sourceTree = "<group>"; };
 		6D680EAD2757D03C00633F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D680EC92757D33700633F99 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		6D680ED12757D35000633F99 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		6D680ED62757D36300633F99 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		6D680EDB2757D37600633F99 /* AddEditTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTaskViewController.swift; sourceTree = "<group>"; };
+		6D680EE02757D3A000633F99 /* MviAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MviAction.swift; sourceTree = "<group>"; };
+		6D680EE52757D3B500633F99 /* MviIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MviIntent.swift; sourceTree = "<group>"; };
+		6D680EEA2757D3C900633F99 /* MviResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MviResult.swift; sourceTree = "<group>"; };
+		6D680EEF2757D3DC00633F99 /* MviView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MviView.swift; sourceTree = "<group>"; };
+		6D680EF52757D40200633F99 /* MviViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MviViewModel.swift; sourceTree = "<group>"; };
+		6D680EFD2757D41F00633F99 /* MviViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MviViewState.swift; sourceTree = "<group>"; };
+		6D68B53B2770B06D00D1264A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6D68B5402770B0A100D1264A /* MenuContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContentViewController.swift; sourceTree = "<group>"; };
+		6D68F7102771EB4E00426946 /* BaseDrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDrawerViewController.swift; sourceTree = "<group>"; };
+		6D8C49A32766232200E174CD /* TasksRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksRemoteDataSource.swift; sourceTree = "<group>"; };
+		6D8C49A82766238400E174CD /* TasksLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksLocalDataSource.swift; sourceTree = "<group>"; };
+		6DA933C82767824A00ECF672 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		6DA933CD2767CA5C00ECF672 /* TasksCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksCollectionView.swift; sourceTree = "<group>"; };
+		6DA95204276B65F800EF90CB /* ApplicationScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationScheme.swift; sourceTree = "<group>"; };
+		6DA9520A276B686F00EF90CB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		6DA95210276B76A600EF90CB /* tasks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tasks.xcdatamodel; sourceTree = "<group>"; };
+		6DB453CF275A62A70008E522 /* TasksDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksDataSource.swift; sourceTree = "<group>"; };
+		6DB453D4275A62B80008E522 /* TasksRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksRepository.swift; sourceTree = "<group>"; };
+		6DB453D9275A62E70008E522 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		6DB453E3275A63160008E522 /* TasksAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksAction.swift; sourceTree = "<group>"; };
+		6DB453E8275A63230008E522 /* TasksIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksIntent.swift; sourceTree = "<group>"; };
+		6DB453ED275A63340008E522 /* TasksResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksResult.swift; sourceTree = "<group>"; };
+		6DB453F2275A63460008E522 /* TasksViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewState.swift; sourceTree = "<group>"; };
+		6DB453F7275A63800008E522 /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
+		6DB453FC275A63A40008E522 /* TasksActionProcessorHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksActionProcessorHolder.swift; sourceTree = "<group>"; };
+		6DB45401275A63BA0008E522 /* StatisticsAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsAction.swift; sourceTree = "<group>"; };
+		6DB45406275A63CF0008E522 /* StatisticsIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsIntent.swift; sourceTree = "<group>"; };
+		6DB4540B275A63E40008E522 /* StatisticsResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsResult.swift; sourceTree = "<group>"; };
+		6DB45410275A63FA0008E522 /* StatisticsViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewState.swift; sourceTree = "<group>"; };
+		6DB45415275A640C0008E522 /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		6DB4541A275A64250008E522 /* StatisticsProcessorHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsProcessorHolder.swift; sourceTree = "<group>"; };
+		6DB4541F275A643D0008E522 /* AddEditTaskAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTaskAction.swift; sourceTree = "<group>"; };
+		6DB45424275A64520008E522 /* AddEditTaskIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTaskIntent.swift; sourceTree = "<group>"; };
+		6DB45429275A64660008E522 /* AddEditTaskResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTaskResult.swift; sourceTree = "<group>"; };
+		6DB4542E275A647A0008E522 /* AddEditTaskViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTaskViewState.swift; sourceTree = "<group>"; };
+		6DB45433275A648C0008E522 /* AddEditTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTaskViewModel.swift; sourceTree = "<group>"; };
+		6DB45438275A64A00008E522 /* TaskDetailAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailAction.swift; sourceTree = "<group>"; };
+		6DB4543D275A64B10008E522 /* TaskDetailIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailIntent.swift; sourceTree = "<group>"; };
+		6DB45442275A64C10008E522 /* TaskDetailResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailResult.swift; sourceTree = "<group>"; };
+		6DB45447275A64DB0008E522 /* AddEditTaskProcessorHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTaskProcessorHolder.swift; sourceTree = "<group>"; };
+		6DB4544C275A64F10008E522 /* TaskDetailViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewState.swift; sourceTree = "<group>"; };
+		6DB45451275A65030008E522 /* TaskDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewModel.swift; sourceTree = "<group>"; };
+		6DB45456275A65160008E522 /* TaskDetailProcessorHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailProcessorHolder.swift; sourceTree = "<group>"; };
+		A553590CAFE26AD1DE9FED52 /* Pods-todo-mvi-rxswift-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-mvi-rxswift-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-todo-mvi-rxswift-swiftTests/Pods-todo-mvi-rxswift-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		A844AB19D739CBBB479966F1 /* Pods-todo-mvi-rxswift-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-mvi-rxswift-swift.release.xcconfig"; path = "Target Support Files/Pods-todo-mvi-rxswift-swift/Pods-todo-mvi-rxswift-swift.release.xcconfig"; sourceTree = "<group>"; };
+		CA8A5AF42B223124E4C1F5A1 /* Pods_todo_mvi_rxswift_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todo_mvi_rxswift_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2CD0A9849E657D52245A07C /* Pods-todo-mvi-rxswift-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo-mvi-rxswift-swift.debug.xcconfig"; path = "Target Support Files/Pods-todo-mvi-rxswift-swift/Pods-todo-mvi-rxswift-swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7576BB4CFA80C3CCEF260354 /* Pods_todo_mvi_rxswift_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F92515D7B260212D2AF2FE7 /* Pods_todo_mvi_rxswift_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +188,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50075ECC99CDBF8D2EBBF5C2 /* Pods_todo_mvi_rxswift_swift_todo_mvi_rxswift_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35CA89CED8ACB93DE0618290 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2CD0A9849E657D52245A07C /* Pods-todo-mvi-rxswift-swift.debug.xcconfig */,
+				A844AB19D739CBBB479966F1 /* Pods-todo-mvi-rxswift-swift.release.xcconfig */,
+				487BBE980B35A831A2DFB9E3 /* Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests.debug.xcconfig */,
+				00DDE03EC3B2BE8BBB09FB55 /* Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests.release.xcconfig */,
+				3D7AA2CBE13CAE728A5C523B /* Pods-todo-mvi-rxswift-swiftTests.debug.xcconfig */,
+				A553590CAFE26AD1DE9FED52 /* Pods-todo-mvi-rxswift-swiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6D680E7A2757D02F00633F99 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +215,8 @@
 				6D680E9F2757D03C00633F99 /* todo-mvi-rxswift-swiftTests */,
 				6D680EAA2757D03C00633F99 /* todo-mvi-rxswift-swiftUITests */,
 				6D680E842757D02F00633F99 /* Products */,
+				35CA89CED8ACB93DE0618290 /* Pods */,
+				875C6D2AF512D27536F9D8AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +233,24 @@
 		6D680E852757D02F00633F99 /* todo-mvi-rxswift-swift */ = {
 			isa = PBXGroup;
 			children = (
+				6D680EC12757D1F600633F99 /* addedittask */,
+				6D680EBC2757D1B600633F99 /* data */,
+				6D680EBD2757D1C500633F99 /* mvibase */,
+				6D680EC02757D1E600633F99 /* statistics */,
+				6D680EBF2757D1D600633F99 /* taskdetail */,
+				6D680EBE2757D1CD00633F99 /* tasks */,
+				6D68B53A2770B00000D1264A /* shared */,
+				6D680EC82757D30600633F99 /* util */,
+				6DA95209276B67F400EF90CB /* fonts */,
 				6D680E862757D02F00633F99 /* AppDelegate.swift */,
+				6DA95204276B65F800EF90CB /* ApplicationScheme.swift */,
 				6D680E882757D02F00633F99 /* SceneDelegate.swift */,
-				6D680E8A2757D03000633F99 /* ViewController.swift */,
 				6D680E8C2757D03000633F99 /* Main.storyboard */,
 				6D680E922757D03C00633F99 /* Assets.xcassets */,
 				6D680E942757D03C00633F99 /* LaunchScreen.storyboard */,
 				6D680E972757D03C00633F99 /* Info.plist */,
-				6D680E8F2757D03000633F99 /* todo_mvi_rxswift_swift.xcdatamodeld */,
+				6D4E2C2D276A721F004EC210 /* Localizable.strings */,
+				6DA9520F276B76A600EF90CB /* tasks.xcdatamodeld */,
 			);
 			path = "todo-mvi-rxswift-swift";
 			sourceTree = "<group>";
@@ -131,6 +273,161 @@
 			path = "todo-mvi-rxswift-swiftUITests";
 			sourceTree = "<group>";
 		};
+		6D680EBC2757D1B600633F99 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				6D680EC52757D2D000633F99 /* source */,
+				6DB453D9275A62E70008E522 /* Task.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		6D680EBD2757D1C500633F99 /* mvibase */ = {
+			isa = PBXGroup;
+			children = (
+				6D680EF52757D40200633F99 /* MviViewModel.swift */,
+				6D680EE02757D3A000633F99 /* MviAction.swift */,
+				6D680EE52757D3B500633F99 /* MviIntent.swift */,
+				6D680EEA2757D3C900633F99 /* MviResult.swift */,
+				6D680EEF2757D3DC00633F99 /* MviView.swift */,
+				6D680EFD2757D41F00633F99 /* MviViewState.swift */,
+			);
+			path = mvibase;
+			sourceTree = "<group>";
+		};
+		6D680EBE2757D1CD00633F99 /* tasks */ = {
+			isa = PBXGroup;
+			children = (
+				6D680EC92757D33700633F99 /* TasksViewController.swift */,
+				6DB453E3275A63160008E522 /* TasksAction.swift */,
+				6DB453E8275A63230008E522 /* TasksIntent.swift */,
+				6DB453ED275A63340008E522 /* TasksResult.swift */,
+				6DB453F2275A63460008E522 /* TasksViewState.swift */,
+				6DB453F7275A63800008E522 /* TasksViewModel.swift */,
+				6DB453FC275A63A40008E522 /* TasksActionProcessorHolder.swift */,
+				6D0839B7275A9C6900ABECF1 /* TasksFilterType.swift */,
+				6DA933CD2767CA5C00ECF672 /* TasksCollectionView.swift */,
+				6DA933C82767824A00ECF672 /* TaskCell.swift */,
+			);
+			path = tasks;
+			sourceTree = "<group>";
+		};
+		6D680EBF2757D1D600633F99 /* taskdetail */ = {
+			isa = PBXGroup;
+			children = (
+				6D680ED12757D35000633F99 /* TaskDetailViewController.swift */,
+				6DB45438275A64A00008E522 /* TaskDetailAction.swift */,
+				6DB4543D275A64B10008E522 /* TaskDetailIntent.swift */,
+				6DB45442275A64C10008E522 /* TaskDetailResult.swift */,
+				6DB4544C275A64F10008E522 /* TaskDetailViewState.swift */,
+				6DB45451275A65030008E522 /* TaskDetailViewModel.swift */,
+				6DB45456275A65160008E522 /* TaskDetailProcessorHolder.swift */,
+			);
+			path = taskdetail;
+			sourceTree = "<group>";
+		};
+		6D680EC02757D1E600633F99 /* statistics */ = {
+			isa = PBXGroup;
+			children = (
+				6D680ED62757D36300633F99 /* StatisticsViewController.swift */,
+				6DB45401275A63BA0008E522 /* StatisticsAction.swift */,
+				6DB45406275A63CF0008E522 /* StatisticsIntent.swift */,
+				6DB4540B275A63E40008E522 /* StatisticsResult.swift */,
+				6DB45410275A63FA0008E522 /* StatisticsViewState.swift */,
+				6DB45415275A640C0008E522 /* StatisticsViewModel.swift */,
+				6DB4541A275A64250008E522 /* StatisticsProcessorHolder.swift */,
+			);
+			path = statistics;
+			sourceTree = "<group>";
+		};
+		6D680EC12757D1F600633F99 /* addedittask */ = {
+			isa = PBXGroup;
+			children = (
+				6D680EDB2757D37600633F99 /* AddEditTaskViewController.swift */,
+				6DB4541F275A643D0008E522 /* AddEditTaskAction.swift */,
+				6DB45424275A64520008E522 /* AddEditTaskIntent.swift */,
+				6DB45429275A64660008E522 /* AddEditTaskResult.swift */,
+				6DB4542E275A647A0008E522 /* AddEditTaskViewState.swift */,
+				6DB45433275A648C0008E522 /* AddEditTaskViewModel.swift */,
+				6DB45447275A64DB0008E522 /* AddEditTaskProcessorHolder.swift */,
+			);
+			path = addedittask;
+			sourceTree = "<group>";
+		};
+		6D680EC52757D2D000633F99 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				6D680EC62757D2DA00633F99 /* local */,
+				6D680EC72757D2EA00633F99 /* remote */,
+				6DB453CF275A62A70008E522 /* TasksDataSource.swift */,
+				6DB453D4275A62B80008E522 /* TasksRepository.swift */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		6D680EC62757D2DA00633F99 /* local */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C49A82766238400E174CD /* TasksLocalDataSource.swift */,
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		6D680EC72757D2EA00633F99 /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C49A32766232200E174CD /* TasksRemoteDataSource.swift */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		6D680EC82757D30600633F99 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				6D0839BC275AA3AB00ABECF1 /* RxExt.swift */,
+				6D4E2C21276A0A5E004EC210 /* ObservableUtils.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		6D68B53A2770B00000D1264A /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				6D68B5482770B20200D1264A /* menu */,
+				6D68B53B2770B06D00D1264A /* BaseViewController.swift */,
+				6D68F7102771EB4E00426946 /* BaseDrawerViewController.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		6D68B5482770B20200D1264A /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				6D24A1D9276E4DE00026A1A5 /* MenuHearderViewController.swift */,
+				6D68B5402770B0A100D1264A /* MenuContentViewController.swift */,
+				6D24A1D2276E33E80026A1A5 /* MenuCell.swift */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		6DA95209276B67F400EF90CB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9520A276B686F00EF90CB /* Roboto-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		875C6D2AF512D27536F9D8AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659A42F5696594866ABD612E /* Pods_todo_mvi_rxswift_swift.framework */,
+				181C1060BAB0B3E37D72C9BC /* Pods_todo_mvi_rxswift_swift_todo_mvi_rxswift_swiftUITests.framework */,
+				CA8A5AF42B223124E4C1F5A1 /* Pods_todo_mvi_rxswift_swiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +435,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D680EB02757D03C00633F99 /* Build configuration list for PBXNativeTarget "todo-mvi-rxswift-swift" */;
 			buildPhases = (
+				8BC67243367ABF2046AA3DF8 /* [CP] Check Pods Manifest.lock */,
 				6D680E7F2757D02F00633F99 /* Sources */,
 				6D680E802757D02F00633F99 /* Frameworks */,
 				6D680E812757D02F00633F99 /* Resources */,
+				35960459583C93DEA287E30F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +454,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D680EB32757D03C00633F99 /* Build configuration list for PBXNativeTarget "todo-mvi-rxswift-swiftTests" */;
 			buildPhases = (
+				0A91112B6C2253299B77994F /* [CP] Check Pods Manifest.lock */,
 				6D680E982757D03C00633F99 /* Sources */,
 				6D680E992757D03C00633F99 /* Frameworks */,
 				6D680E9A2757D03C00633F99 /* Resources */,
@@ -173,9 +473,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D680EB62757D03C00633F99 /* Build configuration list for PBXNativeTarget "todo-mvi-rxswift-swiftUITests" */;
 			buildPhases = (
+				725BD6D705F17FD9E807C740 /* [CP] Check Pods Manifest.lock */,
 				6D680EA32757D03C00633F99 /* Sources */,
 				6D680EA42757D03C00633F99 /* Frameworks */,
 				6D680EA52757D03C00633F99 /* Resources */,
+				E8099BB5A62004F30BA0BB6A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +537,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D680E962757D03C00633F99 /* LaunchScreen.storyboard in Resources */,
+				6D4E2C2B276A721F004EC210 /* Localizable.strings in Resources */,
+				6DA9520B276B686F00EF90CB /* Roboto-Regular.ttf in Resources */,
 				6D680E932757D03C00633F99 /* Assets.xcassets in Resources */,
 				6D680E8E2757D03000633F99 /* Main.storyboard in Resources */,
 			);
@@ -256,15 +560,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A91112B6C2253299B77994F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-todo-mvi-rxswift-swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35960459583C93DEA287E30F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-todo-mvi-rxswift-swift/Pods-todo-mvi-rxswift-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-todo-mvi-rxswift-swift/Pods-todo-mvi-rxswift-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-todo-mvi-rxswift-swift/Pods-todo-mvi-rxswift-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725BD6D705F17FD9E807C740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BC67243367ABF2046AA3DF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-todo-mvi-rxswift-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8099BB5A62004F30BA0BB6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests/Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests/Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests/Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D680E7F2757D02F00633F99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D680E8B2757D03000633F99 /* ViewController.swift in Sources */,
+				6DB45434275A648C0008E522 /* AddEditTaskViewModel.swift in Sources */,
+				6D680ED22757D35000633F99 /* TaskDetailViewController.swift in Sources */,
+				6DB453EE275A63340008E522 /* TasksResult.swift in Sources */,
+				6D68B5412770B0A100D1264A /* MenuContentViewController.swift in Sources */,
+				6DB45439275A64A00008E522 /* TaskDetailAction.swift in Sources */,
+				6DB4544D275A64F10008E522 /* TaskDetailViewState.swift in Sources */,
+				6DB453D5275A62B80008E522 /* TasksRepository.swift in Sources */,
 				6D680E872757D02F00633F99 /* AppDelegate.swift in Sources */,
-				6D680E912757D03000633F99 /* todo_mvi_rxswift_swift.xcdatamodeld in Sources */,
+				6DB45425275A64520008E522 /* AddEditTaskIntent.swift in Sources */,
+				6DB45448275A64DB0008E522 /* AddEditTaskProcessorHolder.swift in Sources */,
+				6D680EF02757D3DC00633F99 /* MviView.swift in Sources */,
+				6DB45411275A63FA0008E522 /* StatisticsViewState.swift in Sources */,
+				6DA95205276B65F800EF90CB /* ApplicationScheme.swift in Sources */,
+				6DB45416275A640C0008E522 /* StatisticsViewModel.swift in Sources */,
+				6D68B53C2770B06D00D1264A /* BaseViewController.swift in Sources */,
+				6DB45402275A63BA0008E522 /* StatisticsAction.swift in Sources */,
+				6DB453F8275A63800008E522 /* TasksViewModel.swift in Sources */,
+				6D680EF62757D40200633F99 /* MviViewModel.swift in Sources */,
+				6D68F7112771EB4E00426946 /* BaseDrawerViewController.swift in Sources */,
+				6DA933CE2767CA5C00ECF672 /* TasksCollectionView.swift in Sources */,
+				6D4E2C22276A0A5E004EC210 /* ObservableUtils.swift in Sources */,
+				6D680EDC2757D37600633F99 /* AddEditTaskViewController.swift in Sources */,
+				6DB45457275A65160008E522 /* TaskDetailProcessorHolder.swift in Sources */,
+				6DB453FD275A63A40008E522 /* TasksActionProcessorHolder.swift in Sources */,
+				6DB45407275A63CF0008E522 /* StatisticsIntent.swift in Sources */,
+				6DB4541B275A64250008E522 /* StatisticsProcessorHolder.swift in Sources */,
+				6D8C49A42766232200E174CD /* TasksRemoteDataSource.swift in Sources */,
+				6DB4542A275A64660008E522 /* AddEditTaskResult.swift in Sources */,
+				6D680EE12757D3A000633F99 /* MviAction.swift in Sources */,
+				6DB453E4275A63160008E522 /* TasksAction.swift in Sources */,
+				6D680ECA2757D33800633F99 /* TasksViewController.swift in Sources */,
+				6DB453D0275A62A70008E522 /* TasksDataSource.swift in Sources */,
+				6D680EFE2757D41F00633F99 /* MviViewState.swift in Sources */,
+				6D24A1D4276E33E80026A1A5 /* MenuCell.swift in Sources */,
+				6D24A1DA276E4DE00026A1A5 /* MenuHearderViewController.swift in Sources */,
+				6DB453F3275A63460008E522 /* TasksViewState.swift in Sources */,
+				6D680EEB2757D3C900633F99 /* MviResult.swift in Sources */,
+				6DB45420275A643D0008E522 /* AddEditTaskAction.swift in Sources */,
+				6DB4543E275A64B10008E522 /* TaskDetailIntent.swift in Sources */,
+				6DA933C92767824A00ECF672 /* TaskCell.swift in Sources */,
+				6DB45452275A65030008E522 /* TaskDetailViewModel.swift in Sources */,
+				6DB45443275A64C10008E522 /* TaskDetailResult.swift in Sources */,
 				6D680E892757D02F00633F99 /* SceneDelegate.swift in Sources */,
+				6DB4540C275A63E40008E522 /* StatisticsResult.swift in Sources */,
+				6DB4542F275A647A0008E522 /* AddEditTaskViewState.swift in Sources */,
+				6D8C49A92766238400E174CD /* TasksLocalDataSource.swift in Sources */,
+				6DA95211276B76A600EF90CB /* tasks.xcdatamodeld in Sources */,
+				6DB453E9275A63230008E522 /* TasksIntent.swift in Sources */,
+				6D680EE62757D3B500633F99 /* MviIntent.swift in Sources */,
+				6DB453DA275A62E70008E522 /* Task.swift in Sources */,
+				6D0839BD275AA3AB00ABECF1 /* RxExt.swift in Sources */,
+				6D680ED72757D36300633F99 /* StatisticsViewController.swift in Sources */,
+				6D0839B8275A9C6900ABECF1 /* TasksFilterType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +756,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		6D4E2C2D276A721F004EC210 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D4E2C2C276A721F004EC210 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		6D680E8C2757D03000633F99 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -356,6 +820,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -417,6 +882,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,10 +903,12 @@
 		};
 		6D680EB12757D03C00633F99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2CD0A9849E657D52245A07C /* Pods-todo-mvi-rxswift-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S63P59N943;
 				INFOPLIST_FILE = "todo-mvi-rxswift-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,10 +923,12 @@
 		};
 		6D680EB22757D03C00633F99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A844AB19D739CBBB479966F1 /* Pods-todo-mvi-rxswift-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S63P59N943;
 				INFOPLIST_FILE = "todo-mvi-rxswift-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,6 +943,7 @@
 		};
 		6D680EB42757D03C00633F99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7AA2CBE13CAE728A5C523B /* Pods-todo-mvi-rxswift-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +965,7 @@
 		};
 		6D680EB52757D03C00633F99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A553590CAFE26AD1DE9FED52 /* Pods-todo-mvi-rxswift-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +987,7 @@
 		};
 		6D680EB72757D03C00633F99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487BBE980B35A831A2DFB9E3 /* Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +1007,7 @@
 		};
 		6D680EB82757D03C00633F99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DDE03EC3B2BE8BBB09FB55 /* Pods-todo-mvi-rxswift-swift-todo-mvi-rxswift-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,13 +1067,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6D680E8F2757D03000633F99 /* todo_mvi_rxswift_swift.xcdatamodeld */ = {
+		6DA9520F276B76A600EF90CB /* tasks.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6D680E902757D03000633F99 /* todo_mvi_rxswift_swift.xcdatamodel */,
+				6DA95210276B76A600EF90CB /* tasks.xcdatamodel */,
 			);
-			currentVersion = 6D680E902757D03000633F99 /* todo_mvi_rxswift_swift.xcdatamodel */;
-			path = todo_mvi_rxswift_swift.xcdatamodeld;
+			currentVersion = 6DA95210276B76A600EF90CB /* tasks.xcdatamodel */;
+			path = tasks.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
